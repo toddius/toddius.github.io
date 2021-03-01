@@ -20,7 +20,6 @@ body {
 }
 /* Styling my name in navbar */
 #name {
-    /* background-color: steelblue; */
     color: steelblue;
     font-family: 'Raleway', sans-serif;
     font-size: xx-large;
@@ -33,7 +32,6 @@ section {
     margin-left: 40px;
     margin-top: 50px;
     margin-bottom: 50px;
-    
 }
 
 /* Styling the aside */
@@ -57,15 +55,34 @@ h1 {
     height: 250px;
 }
 
-/* Styling text in footer */
-.footer {
-    color: steelblue;
+/* Styling the footer */
+#sticky-footer {
     background-color: lightgrey;
-    font-family: 'Raleway', sans-serif;
+    border-top: 5px solid steelblue;
+    color: steelblue;
 }
 
-/* Adding border on top of footer */
-#sticky-footer {
-    border-top: 5px solid steelblue;
-    background-color: #9a9e9e;
+/* Styling border content */
+#footer-content {
+    font-family: 'Raleway', sans-serif;
+    color: steelblue;
+}
+
+a {
+    /* font-family: 'Raleway', sans-serif; */
+    color: steelblue;
+}
+
+p {
+    /* font-family: 'Raleway', sans-serif; */
+    color: steelblue;
+}
+
+i {
+    /* font-family: 'Raleway', sans-serif; */
+    color: black;
+}
+
+img {
+    opacity: 85%;
 }
