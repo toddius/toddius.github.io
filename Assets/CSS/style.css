@@ -1,0 +1,61 @@
+/* Insert background image  */
+body {
+    background-image: url(../images/hubble-deep-field.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Remove padding from container */
+.container {
+    padding: 0;
+}
+/* Styling my name in navbar */
+#name {
+    background-color: steelblue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+/* Styling the section */
+section {
+    background-color: white;
+    padding: 30px  1.5rem; 
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Styling the aside */
+aside {
+    background-color: white;
+    padding: 105px  1.5rem; 
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Styling the header */
+h1 {
+    color: steelblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Setting dimensions for picture in index file */
+#about-me {
+    width: 275px; 
+    height: 275px;
+}
+
+/* Styling text in footer */
+.footer {
+    color: steelblue;
+    
+}
+
+/* Adding border on top of footer */
+#sticky-footer {
+    border-top: 5px solid steelblue;
+}
